@@ -1,53 +1,65 @@
 
 
 /*# sourceMappingURL=main.css.map */
-#main{
-
+body {
+    background: black;
+    overflow-x: hidden;
 }
 
-#main > *, #tribute-info > * {
-    width:100%;
+#main {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
 }
 
+#main > * {
+    width: 100%;
+}
 
-#header{
+#header {
+    width: 100vw;
     position: relative;
-}
-
-#header #img-div{
-
 }
 
 img#image {
     width: 100%;
 }
 
-#title{
+#title {
     font: 400 50px 'playfair display';
     position: absolute;
     top: 50%;
     left:50%;
     transform:translate(6%, -50%);
     color: whitesmoke;
-    
-
-
 }
 
-#tribute-info{
+#tribute-info > * {
+    width: 100%;
+}
+
+#tribute-info {
     display: flex; flex-flow: column nowrap;
     align-items: center;
+
+    margin-top: 20px;
+
+    color: white;
 }
 
 #tribute-info__bio{
     width:90%;
-    
+    font: 400 14px 'Lato', sans-serif;
 }
 
-#tribute-info__quote{
-    
+#tribute-info__quote {
+    text-align: center;
+    font: 400 48px 'Tangerine', sans-serif;
 }
 
-#tribute-info__link{}
+#tribute-info__link{
 
-#footer{}
+}
+
+#footer{
+
+}
