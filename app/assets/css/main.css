@@ -1,19 +1,52 @@
 
 
 /*# sourceMappingURL=main.css.map */
-#main{}
+#main{
 
-#header{}
+}
 
-#header #img-div{}
+#main > *, #tribute-info > * {
+    width:100%;
+}
 
-#title{}
 
-#tribute-info{}
+#header{
+    position: relative;
+}
 
-#tribute-info__bio{}
+#header #img-div{
 
-#tribute-info__quote{}
+}
+
+img#image {
+    width: 100%;
+}
+
+#title{
+    font: 400 50px 'playfair display';
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(6%, -50%);
+    color: whitesmoke;
+    
+
+
+}
+
+#tribute-info{
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+
+#tribute-info__bio{
+    width:90%;
+    
+}
+
+#tribute-info__quote{
+    
+}
 
 #tribute-info__link{}
 
