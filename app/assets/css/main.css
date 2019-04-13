@@ -25,12 +25,18 @@ img#image {
 }
 
 #title {
-    font: 400 50px 'playfair display';
+    font: 400 3.5rem 'playfair display';
     position: absolute;
     top: 50%;
     left:50%;
     transform:translate(6%, -50%);
     color: whitesmoke;
+
+    line-height: 1;
+}
+
+#title > h1 > span {
+    font-size: .7em;
 }
 
 #tribute-info > * {
